@@ -1,0 +1,2 @@
+# Ejercicioprogra1
+Ayuda
