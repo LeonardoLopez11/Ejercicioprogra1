@@ -3,28 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class script : MonoBehaviour
+
 {
+    
+    int a;
+    int b;
+
     // Start is called before the first frame update
     void Start()
     {
-        int a = 5;
-        int b = 10;
-
+        a = 5;
+        b = 5;
+    }
+        
 
         public class operacion
-        {
-            public int suma(int a, int b){
-                return a + b;
-            
-            }
-        }
-
-        
-    }
-
-    // Update is called once per frame
-    void Update()
     {
-        
+        public int suma(int a, int b)
+        {
+            return a + b;
+
+        }
     }
+
 }
+
+
+        
